@@ -1,0 +1,9 @@
+VerifyAI - Software Architecture
+
+
+The user will submit a variety of options into the website. It can be either text, a pdf or word document with obviously text in it. The user can submit a url to check if the website itself is a good source for facts on that page. Everything is going to run server side, and what the system is going to output is a label, a score, an explanation and sources to back up why it thinks that way.
+
+The AI will store all the data that the user submits, such as old logs. No personal info will be saved. Submissions, results, citations and logs. For the backend it will validate the input to make sure the correct file is getting submitted, handles auths, scraping. It will also fetch content, such as pulling out the HTML
+
+
+Some more detail on the scores is that it will classify data as likely to be false or likely to be true, and color coded for less text clutter. Will only stick to unbiased sources such as edu, or .gov to make sure there is no basis in the checkers. Will rarely go away from that to check niche opinions and will stay close to popular and most visited websites
